@@ -1,6 +1,6 @@
 Package.describe({
   name: 'wanglian:lodash',
-  version: '0.0.1',
+  version: '0.0.2',
   summary: 'Meteor wrapper for lodash',
   // URL to the Git repository containing the source code for this package.
   git: 'https://github.com/wanglian/meteor-lodash.git',
@@ -24,5 +24,5 @@ Package.onTest(function(api) {
 });
 
 Npm.depends({
-  "lodash": "4.17.11",
+  "lodash": "4.17.15",
 });
